@@ -1,0 +1,50 @@
+.book-detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.book-detail-title {
+  margin-bottom: 0.5rem;
+}
+
+.book-detail-author a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.book-detail-author a:hover {
+  text-decoration: underline;
+}
+
+.book-detail-year,
+.book-detail-copies {
+  margin-bottom: 1rem;
+}
+
+.book-detail-borrow-btn,
+.book-detail-return-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.book-detail-borrow-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.book-detail-return-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.book-detail-borrow-btn:hover {
+  background-color: #0056b3;
+}
+
+.book-detail-return-btn:hover {
+  background-color: #218838;
+}

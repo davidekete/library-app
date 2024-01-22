@@ -1,0 +1,40 @@
+.books-container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.books-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Grid styling for book cards */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Default for medium screens */
+  grid-gap: 1rem;
+}
+
+/* Large screen adjustments */
+@media (min-width: 992px) {
+  .books-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Book card styling */
+.book-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.book-card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-title, .book-author, .book-year {
+  margin: .5rem 0;
+}

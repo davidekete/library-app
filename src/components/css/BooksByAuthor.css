@@ -1,0 +1,32 @@
+.books-by-author-container {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.books-by-author-header {
+  margin: 1rem 0;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* fallback */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* adapt to screen size */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-title {
+  margin-bottom: 0.5rem;
+}
